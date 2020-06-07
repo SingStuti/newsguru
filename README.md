@@ -1,4 +1,4 @@
-# Checkout the app on this link
+
 <img src="images/image.jpg">
 
 # Introduction
