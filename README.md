@@ -1,11 +1,16 @@
 # Checkout the app on this link
-<img src="images/app.png">
+<img src="images/image.jpg">
 
 # Introduction
-Do you trust all the news you hear from social media? All news are not real, right? So how will you detect the fake news? We will be using Multinomial Naive Bayes method to classify the news article scrapped from the news article link, as fake or real.
+
+For some years, mostly since the rise of social media, fake news have become a society problem, in some occasion spreading more and faster than the true information. Fake news has quickly become a society problem, being used to propagate false or rumour information in order to change peoples behaviour. It has been shown that propagation of fake news has had a non-negligible influence of 2016 US presidential elections. A few facts on fake news in the United States:
+• 62% of US citizens get their news for social medias.
+• Fake news had more share on Facebook than mainstream news.
+
+So how will you detect the fake news? We will be using Multinomial Naive Bayes method to classify the news article scrapped from the news article link, as fake or real.
 
 # Data
-The dataset we’ll use for this python project- we’ll call it news.csv. This dataset has a shape of 7796×4. The first column identifies the news, the second and third are the title and text, and the fourth column has labels denoting whether the news is REAL or FAKE.
+The dataset used is news.csv. This dataset has a shape of 7796×4. The first column identifies the news, the second and third are the title and text, and the fourth column has labels denoting whether the news is REAL or FAKE.
 
 # Project Structre
 This project has four major parts :
@@ -18,7 +23,7 @@ This project has four major parts :
 
 # Running the project on local machine
 
-Ensure that you are in the project home directory. Create the machine learning model by running below command -
+ Once you are in the project home directory. Create the machine learning model by running below command -
 python fake_news_detection.py
 This would create a serialized version of our model into a file model.pkl
 
@@ -27,7 +32,4 @@ python app.py
 By default, flask will run on port 5000.
 
 Navigate to URL http://127.0.0.1:5000 
-# fakenewsdetection
-# fakenewsdetection
-# fakenews
-# newsguru
+
